@@ -1,0 +1,191 @@
+*div#content {
+  background-color: #5e5e5e;
+  height: 500px;
+}
+* .content2 {
+  display: flex;
+}
+.lcontent3 {
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  width: 300px;
+  height: 150px;
+  background-color: #5e5e5e;
+  margin-left: 270px;
+}
+.rcontent4 {
+  float: right;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  width: 300px;
+  height: 200px;
+  background-color: #5e5e5e;
+  margin-right: 270px;
+}
+* .content1 {
+  display: flex;
+}
+.lcontent1 a button {
+  text-decoration: none;
+  transition: 0.3s;
+}
+.lcontent1 button {
+  float: left;
+  margin-top: 150px;
+  margin-bottom: 5px;
+  width: 305px;
+  height: 50px;
+  margin-left: 270px;
+  text-align: left;
+}
+.lcontent1 ul li button {
+  background-color: grey;
+  margin-right: 1px;
+  border: 10px solid grey;
+  border-right: 10px solid grey;
+  border-bottom: 5px solid gray;
+  border-top: 5px solid gray;
+  border-radius: 7px;
+  font-size: 20px;
+}
+.lcontent2 button {
+  float: right;
+  margin-top: 150px;
+  margin-bottom: 5px;
+  width: 345px;
+  height: 50px;
+  margin-left: 10px;
+  text-align: left;
+}
+.lcontent2 ul li button {
+  background-color: grey;
+  margin-right: 1px;
+  border: 10px solid gray;
+  border-right: 20px solid grey;
+  border-bottom: 5px solid gray;
+  border-top: 5px solid gray;
+  border-radius: 7px;
+  font-size: 20px;
+  height: 50px;
+}
+.lcontent3 button {
+  float: left;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 45px;
+  margin-left: -10px;
+  text-align: left;
+}
+.lcontent3 ul li button {
+  background-color: grey;
+  margin-right: 1px;
+  border: 10px solid gray;
+  border-right: 20px solid grey;
+  border-bottom: 5px solid gray;
+  border-top: 5px solid gray;
+  border-radius: 7px;
+  font-size: 15px;
+}
+.lct3-1 {
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  width: 320px;
+  height: 45px;
+  margin-left: -5px;
+  text-align: left;
+  border-radius: 7px;
+}
+.lct3-1 button {
+  background-color: grey;
+  margin-right: 1px;
+  border: 10px solid gray;
+  border-right: 20px solid grey;
+  border-bottom: 5px solid gray;
+  border-top: 5px solid gray;
+  border-radius: 7px;
+  font-size: 15px;
+  width: 325px;
+}
+.lct3-2 {
+  float: left;
+  margin-top: -13px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 45px;
+  margin-left: -5px;
+  text-align: left;
+  border-radius: 8px;
+}
+.lct3-2 button {
+  background-color: grey;
+  margin-right: 1px;
+  border: 10px solid gray;
+  border-right: 20px solid grey;
+  border-bottom: 5px solid gray;
+  border-top: 5px solid gray;
+  border-radius: 7px;
+  font-size: 15px;
+  width: 305px;
+}
+.lct3-3 {
+  float: left;
+  margin-top: -8px;
+  margin-bottom: 10px;
+  width: 310px;
+  height: 45px;
+  margin-left: -5px;
+  text-align: left;
+}
+.lct3-3 button {
+  background-color: grey;
+  margin-right: -10px;
+  border: 10px solid gray;
+  border-right: 20px solid grey;
+  border-bottom: 5px solid gray;
+  border-top: 5px solid gray;
+  border-radius: 7px;
+  font-size: 15px;
+  width: 305px;
+}
+.lcontent1 a,
+.rct2 a,
+.lct3-1 a,
+.lct3-2 a,
+.lct3-3 a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+.lcontent3,
+.rcontent4 {
+  border: 0px solid silver;
+  padding: 15px;
+}
+.rcontent4 button {
+  width: 347px;
+  height: 140px;
+  margin-top: -15px;
+}
+.rcontent4 button {
+  background-color: grey;
+  border: 10px solid gray;
+  border-right: 112px solid grey;
+  border-bottom: 5px solid gray;
+  border-top: -10px solid gray;
+  border-radius: 8px;
+  font-size: 17px;
+  margin-left: -30px;
+  margin-bottom: -10px;
+  text-align: left;
+}
+.rcontent4 a button {
+  width: 300px;
+  height: 120px;
+  margin-top: -15px;
+}
+.lcontent3 li {
+  margin-right: 5px;
+  margin-bottom: -5px;
+}

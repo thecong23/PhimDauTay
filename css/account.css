@@ -11,7 +11,6 @@
   margin-bottom: 40px;
   width: 300px;
   height: 150px;
-  background-color: #5e5e5e;
   margin-left: 270px;
 }
 .rcontent4 {
@@ -20,28 +19,35 @@
   margin-bottom: 50px;
   width: 300px;
   height: 200px;
-  background-color: #5e5e5e;
   margin-right: 270px;
 }
 * .content1 {
   display: flex;
 }
+.lct1 {
+  margin-left: 80px;
+}
+.lct1 i {
+  text-align: left;
+}
 .lcontent1 a button {
   text-decoration: none;
   transition: 0.3s;
+  text-align: left;
 }
 .lcontent1 button {
   float: left;
   margin-top: 150px;
   margin-bottom: 5px;
   width: 305px;
-  height: 50px;
+  height: 62px;
   margin-left: 270px;
   text-align: left;
+  margin-right: 50px;
 }
 .lcontent1 ul li button {
   background-color: grey;
-  margin-right: 1px;
+  margin-right: 10px;
   border: 10px solid grey;
   border-right: 10px solid grey;
   border-bottom: 5px solid gray;
@@ -49,13 +55,16 @@
   border-radius: 7px;
   font-size: 20px;
 }
+.lct2 {
+  margin-left: -40px;
+}
 .lcontent2 button {
   float: right;
   margin-top: 150px;
   margin-bottom: 5px;
-  width: 345px;
-  height: 50px;
-  margin-left: 10px;
+  width: 360px;
+  height: 62px;
+  margin-left: 50px;
   text-align: left;
 }
 .lcontent2 ul li button {
@@ -67,7 +76,7 @@
   border-top: 5px solid gray;
   border-radius: 7px;
   font-size: 20px;
-  height: 50px;
+  height: 62px;
 }
 .lcontent3 button {
   float: left;
@@ -75,7 +84,7 @@
   margin-bottom: 10px;
   width: 300px;
   height: 45px;
-  margin-left: -10px;
+  margin-left: 45px;
   text-align: left;
 }
 .lcontent3 ul li button {
@@ -88,13 +97,13 @@
   border-radius: 7px;
   font-size: 15px;
 }
-.lct3-1 {
+.lct3-1 a {
   float: left;
-  margin-top: 0px;
+  margin-top: 3px;
   margin-bottom: 10px;
-  width: 320px;
-  height: 45px;
-  margin-left: -5px;
+  width: 450px;
+  height: 60px;
+  margin-left: 20px;
   text-align: left;
   border-radius: 7px;
 }
@@ -106,16 +115,17 @@
   border-bottom: 5px solid gray;
   border-top: 5px solid gray;
   border-radius: 7px;
-  font-size: 15px;
-  width: 325px;
+  font-size: 30px;
+  height: 52px;
+  width: 370px;
 }
-.lct3-2 {
+.lct3-2 a {
   float: left;
-  margin-top: -13px;
+  margin-top: -10px;
   margin-bottom: 10px;
   width: 300px;
-  height: 45px;
-  margin-left: -5px;
+  height: 64px;
+  margin-left: 20px;
   text-align: left;
   border-radius: 8px;
 }
@@ -129,14 +139,15 @@
   border-radius: 7px;
   font-size: 15px;
   width: 305px;
+  height: 52px;
 }
-.lct3-3 {
+.lct3-3 a {
   float: left;
-  margin-top: -8px;
+  margin-top: -14px;
   margin-bottom: 10px;
   width: 310px;
-  height: 45px;
-  margin-left: -5px;
+  height: 60px;
+  margin-left: 20px;
   text-align: left;
 }
 .lct3-3 button {
@@ -149,6 +160,7 @@
   border-radius: 7px;
   font-size: 15px;
   width: 305px;
+  height: 52px;
 }
 .lcontent1 a,
 .rct2 a,
@@ -164,9 +176,9 @@
   padding: 15px;
 }
 .rcontent4 button {
-  width: 347px;
-  height: 140px;
-  margin-top: -15px;
+  width: 360px;
+  height: 172px;
+  margin-top: -12px;
 }
 .rcontent4 button {
   background-color: grey;
@@ -176,7 +188,7 @@
   border-top: -10px solid gray;
   border-radius: 8px;
   font-size: 17px;
-  margin-left: -30px;
+  margin-left: 60px;
   margin-bottom: -10px;
   text-align: left;
 }

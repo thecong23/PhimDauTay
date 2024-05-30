@@ -65,12 +65,13 @@
     margin-top: -15px;
     margin-bottom: 5px;
 }
-.detail-movie h4 {
+.movie {
     margin-top: 13px;
     margin-bottom: 5px;
     margin-left: 30px;
+    text-align: left;
     color: #ff9249;
-    font-size: 28px;
+    font-size: 25px;
 }
 .detail-movie h5{
     margin-bottom: 10px;
@@ -92,9 +93,11 @@
 .cFilm-movie{
     margin-top: 30px;
     margin-bottom: 20px;
+    padding-left: 15px;
     background-color: rgb(21, 21, 24);
 }
 .cFilm-movie h4{
+    text-align: left;
     color: #ff9249;
     font-size: 20px;
 }
@@ -105,13 +108,18 @@
 .comment-movie{
     margin-top: 30px;
     margin-bottom: 20px;
+    padding-left: 15px;
+    padding-bottom: 20px;
     background-color: rgb(21, 21, 24);
 }
 .comment-movie h4{
     color: #ff9249;
+    text-align: left;
     font-size: 20px;
 }
-
+.comment-movie input{
+    width: 80%;
+}
 #content-watch {
     clear: both;
     float: left;
@@ -144,8 +152,10 @@
 .recommend-movie{
     margin-top: 30px;
     margin-bottom: 20px;
+    padding-left: 15px;
 }
 .recommend-movie h4{
+    text-align: left;
     color: #ff9249;
     font-size: 20px;
 }
@@ -158,8 +168,9 @@
     width: 150px;
     height: 220px;
 }
-.recommend-movie a, .recommend-movie p{
+.recommend-movie li{
     width: 150px;
+    word-wrap: break-word;
 }
 .recommend-movie a{
     font-size: 16px;
@@ -195,6 +206,11 @@
     display: inline-block;
     margin-bottom: 5px;
     text-align: left;
+}
+#sidebar-movie h4{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 0px;
 }
 #sidebar-movie p{
     font-size: 14px;

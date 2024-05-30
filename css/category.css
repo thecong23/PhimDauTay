@@ -9,6 +9,7 @@
 /* Menu chính */
 .content{
   background-color: #5e5e5e;
+
 }
 .content .lcontent ul li a {
   color: #FFFF00; /* Thay đổi màu chữ sang vàng */
@@ -25,10 +26,9 @@
 .lcontent ul li a:hover { /* Kiểu khi di chuột qua liên kết */
   background-color: white; /* Thay đổi màu nền khi di chuột qua */
 }
-h4 {
+.content h4 {
   margin: 10px 0; /* Khoảng cách 10px trên và dưới */
   margin-top: -10px;
-  font-family: 'Arial', sans-serif; /* Thay đổi font chữ */
   font-size: 40px; /* Chỉnh sửa kích thước phông chữ */
   font-weight: bold; /* Làm chữ in đậm */
   line-height: 0,5; /* Chỉnh sửa khoảng cách dòng */
